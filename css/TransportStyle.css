@@ -1,0 +1,97 @@
+body {
+  background-image: linear-gradient(to bottom right,rgba(2, 6, 84, 0.751), rgb(15, 0, 99));
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  max-width: 100%;
+  font-weight: bolder;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  font-size: 450%;
+}
+
+h2 {
+  color: rgb(255, 255, 255);
+  margin: 25px auto;
+  max-width: fit-content;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  font-size: 350%;
+}
+
+h3 {
+  color: rgb(255, 255, 255);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  max-width: fit-content;
+  margin: 25px auto ;
+  font-size: 300%;
+}
+
+p {
+  max-width: 80%;
+  margin: auto;
+  border: 5px solid;
+  background-color: rgba(23, 156, 232, 0.527);
+  text-align: center;
+  font-weight: bolder;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(252, 252, 252);
+  font-size: 200%;
+}
+
+table, th, td {
+  color: rgb(0, 0, 0);
+  background-color:  rgba(23, 156, 232, 0.527);  
+  border: 5px solid;
+  border-color: rgba(255, 255, 255, 0.85);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 110%;
+  padding: 10px;
+  width: 50%;
+  margin: auto;
+}
+
+ul {
+    border: 5px solid;
+  background-color:  rgba(23, 156, 232, 0.527);
+  max-width: 145px;
+  margin: auto;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 200%;
+}
+
+selector {
+  border: width style color;
+}
+
+.topnav {
+  background-color: #060a2c;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 17px 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgb(13, 1, 255);
+}
+
+.topnav a.active {
+  background-color: #013cff;
+  color: white;
+}

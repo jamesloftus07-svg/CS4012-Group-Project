@@ -10,23 +10,23 @@ h1 {
   color: rgb(255, 255, 255);
   max-width: 100%;
   font-weight: bolder;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Monoton';font-size: 22px;
   text-align: center;
-  font-size: 450%;
+  font-size: 800%;
 }
 
 h2 {
   color: rgb(255, 255, 255);
   margin: 25px auto;
   max-width: fit-content;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Science Gothic';font-size: 22px;
   text-align: center;
   font-size: 350%;
 }
 
 h3 {
   color: rgb(255, 255, 255);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Science Gothic';font-size: 22px;
   text-align: center;
   max-width: fit-content;
   margin: 25px auto ;
@@ -46,26 +46,31 @@ p {
 }
 
 table, th, td {
-  color: rgb(0, 0, 0);
-  background-color:  rgba(23, 156, 232, 0.527);  
-  border: 5px solid;
+  color: rgb(26, 16, 104);
+  background-color:  rgba(251, 251, 251, 0.6);
+  border: 3px solid;
+  border-collapse: collapse;
   border-color: rgba(255, 255, 255, 0.85);
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Alexandria';font-size: 22px;
   font-size: 110%;
-  padding: 10px;
+  padding: 15px;
   width: 50%;
   margin: auto;
 }
 
 ul {
-    border: 5px solid;
-  background-color:  rgba(23, 156, 232, 0.527);
+  border: 3px solid;
+  border-radius: 15px;
+  border-color: #ffffff;
+  padding: 25px;
+  background-color:  rgba(251, 251, 251, 0.85); 
   max-width: 145px;
   margin: auto;
-  color: rgb(0, 0, 0);
+  color:  rgb(26, 16, 104);
   font-weight: bolder;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 200%;
+  font-family: 'Alexandria';font-size: 22px;
+  font-size: 150%;
+  text-align: center;
 }
 
 selector {
@@ -83,6 +88,7 @@ selector {
   text-align: center;
   padding: 17px 20px;
   text-decoration: none;
+  font-family: 'Science Gothic';font-size: 22px;
   font-size: 20px;
 }
 

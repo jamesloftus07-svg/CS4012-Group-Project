@@ -1,0 +1,103 @@
+.topnav {
+  background-color: #060a2c;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 17px 20px;
+  text-decoration: none;
+  font-family: 'Science Gothic';font-size: 22px;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: #ffffffd8;
+  color: #060a2c;
+}
+
+.topnav a.active {
+  background-color: #ffffff;
+  color: #060a2c;
+}
+
+img{
+    width: 80%;
+    height: 50%;
+    margin: 10%;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+
+}
+
+P{
+    text-align: center;
+    margin: 5%;
+}
+
+p2{
+    text-align: center;
+}
+
+
+.explore-buttons-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.button-box{
+    width: 70px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: cornflowerblue;
+    border-width: 2px;
+    border-color: rgb(125, 196, 232);
+    border-radius:  15px;
+    text-decoration: none;
+    border-style: solid;
+    transition: 0.6s ease;
+    overflow: hidden;
+    color: black;
+} 
+
+.nav-button-text{
+    text-decoration: none;
+    white-space: nowrap;
+    opacity: 0 ;
+    transition: opacity 0.3s ease;
+    text-align: center;
+
+}
+
+.button-icon{
+    align-items: center;
+    min-width: 70px;
+    text-align: center;
+    
+}
+
+.button-box:hover{
+    width: 350px;
+    
+}
+
+.nav-button-text{
+        opacity: 1;
+
+    }
+
+    
+
+

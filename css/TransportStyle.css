@@ -51,7 +51,8 @@ h3 {
   font-size: 200%;
 }
 
- #basic-box {
+ #introbox {
+  display: none;
   margin-left: 10px;
   width: 750px;
   height: 1050px;
@@ -62,9 +63,50 @@ h3 {
   color: rgb(255, 255, 255);
 }
 
+#trainbox {
+  display: none;
+  margin-top: 100px;
+  margin-right: 5px;
+  margin-left: auto;
+  width: 750px;
+  height: 1000px;
+  border-radius: 10px;
+  border: 2px solid #060a2c;
+  background-image: linear-gradient(to bottom right,rgba(10, 10, 44, 0.751), rgb(19, 11, 59));
+  padding: 10px;
+  color: rgb(255, 255, 255);
+}
 
+#busbox {
+  display: none;
+  margin-top: 100px;
+  margin-right: 5px;
+  margin-left: auto;
+  width: 750px;
+  height: 1000px;
+  border-radius: 10px;
+  border: 2px solid #060a2c;
+  background-image: linear-gradient(to bottom right,rgba(10, 10, 44, 0.751), rgb(19, 11, 59));
+  padding: 10px;
+  color: rgb(255, 255, 255);
+}
 
-#basic-box1 {
+#metrobox {
+  display: none;
+  margin-top: 100px;
+  margin-right: 5px;
+  margin-left: auto;
+  width: 750px;
+  height: 1000px;
+  border-radius: 10px;
+  border: 2px solid #060a2c;
+  background-image: linear-gradient(to bottom right,rgba(10, 10, 44, 0.751), rgb(19, 11, 59));
+  padding: 10px;
+  color: rgb(255, 255, 255);
+}
+
+#tripbox {
+  display: none;
   margin-top: 100px;
   margin-right: 5px;
   margin-left: auto;
@@ -156,8 +198,10 @@ selector {
   border: none;
 }
 
-
-
+#dropbtn:active {
+  background-color: #060a2c;
+  color: white;
+}
 
 #dropbar {
   margin: 0 auto;
@@ -165,26 +209,6 @@ selector {
   max-width: 75%;
   background-color: #ffffff;
   overflow: hidden;
-}
-
-#dropbar a {
-  float: left;
-  color: #060a2c;
-  text-align: center;
-  padding: 10px 56.93px;
-  text-decoration: none;
-  font-family: 'Science Gothic';font-size: 22px;
-  font-size: 20px;
-}
-
-#dropbar a:hover {
-  background-color: #060a2c;
-  color: #ffffff;
-}
-
-#dropbar a:active {
-  background-color: #060a2c;
-  color: white;
 }
 
 

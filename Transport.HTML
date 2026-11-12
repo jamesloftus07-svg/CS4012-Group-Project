@@ -9,6 +9,7 @@
         <link href='https://fonts.googleapis.com/css?family=Monoton' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Alexandria' rel='stylesheet'>
 
+        <!--top navigation bar-->
         <div class="topnav">
          <a href="#Home">Home</a>
          <a href="#Food">Food</a>
@@ -18,27 +19,110 @@
         </div>
 
         <h1>TRANSPORT<br>in France</h1>
-    
-       <div id="dropbar">
-         <button id="dropbtn" onclick="Dropdown1()">Introduction</button>
-         <a href="#Train">Train</a>
-         <a class="active" href="#Bus">Bus</a>
-         <a href="#Metro">Metro</a>
-         <a href="#Trip">Trips</a>
-        </div>
         
+
+        <div id="dropbar">
+         <button id="dropbtn" onclick="Dropdown1()">Introduction</button>
+         <button id="dropbtn" onclick="Dropdown2()">Trains</button>
+         <button id="dropbtn" onclick="Dropdown3()">Bus</button>
+         <button id="dropbtn" onclick="Dropdown4()">Metro</button>
+         <button id="dropbtn" onclick="Dropdown5()">Trips</button>
+        </div>
+
+        <!--Start of script for button bar toggeling info boxes visibility-->
         <script>
             function Dropdown1() {
-            var x = document.getElementById("basic-box");
-            if (x.style.display === "none") {
-                x.style.display = "block";
+            var a = document.getElementById("introbox");
+            var b = document.getElementById("trainbox");
+            var c = document.getElementById("busbox");
+            var d = document.getElementById("metrobox");
+            var e = document.getElementById("tripbox");
+            if (a.style.display === "none") {
+                a.style.display = "block";
+                b.style.display = "none";
+                c.style.display = "none";
+                d.style.display = "none";
+                e.style.display = "none";
             } else {
-                x.style.display = "none";
+                a.style.display = "none";
+            }
+            }
+
+            function Dropdown2() {
+            var a = document.getElementById("introbox");
+            var b = document.getElementById("trainbox");
+            var c = document.getElementById("busbox");
+            var d = document.getElementById("metrobox");
+            var e = document.getElementById("tripbox");
+            if (b.style.display === "none") {
+                b.style.display = "block";
+                a.style.display = "none";
+                c.style.display = "none";
+                d.style.display = "none";
+                e.style.display = "none";
+            } else {
+                b.style.display = "none";
+            }
+            }
+
+            function Dropdown3() {
+            var a = document.getElementById("introbox");
+            var b = document.getElementById("trainbox");
+            var c = document.getElementById("busbox");
+            var d = document.getElementById("metrobox");
+            var e = document.getElementById("tripbox");
+            if (c.style.display === "none") {
+                c.style.display = "block";
+                a.style.display = "none";
+                b.style.display = "none";
+                d.style.display = "none";
+                e.style.display = "none";
+            } else {
+                c.style.display = "none";
+            }
+            }
+
+            function Dropdown4() {
+            var a = document.getElementById("introbox");
+            var b = document.getElementById("trainbox");
+            var c = document.getElementById("busbox");
+            var d = document.getElementById("metrobox");
+            var e = document.getElementById("tripbox");
+            if (d.style.display === "none") {
+                d.style.display = "block";
+                a.style.display = "none";
+                b.style.display = "none";
+                c.style.display = "none";
+                e.style.display = "none";
+            } else {
+                d.style.display = "none";
+            }
+            }
+
+            function Dropdown5() {
+            var a = document.getElementById("introbox");
+            var b = document.getElementById("trainbox");
+            var c = document.getElementById("busbox");
+            var d = document.getElementById("metrobox");
+            var e = document.getElementById("tripbox");
+            if (e.style.display === "none") {
+                e.style.display = "block";
+                b.style.display = "none";
+                c.style.display = "none";
+                d.style.display = "none";
+                a.style.display = "none";
+            } else {
+                e.style.display = "none";
             }
             }
         </script>
-        
-        <div id="basic-box">
+        <!--End of box visibility script-->
+
+
+        <!--Start of information box code-->
+
+        <!--first info box code-->
+        <div id="introbox">
             <h3>Introduction</h3>
 
             <p id="p1">So you’re planning a trip to France, one of the most
@@ -95,7 +179,8 @@
             </table>
         </div>
 
-        <div id="basic-box1">
+        <!--second info box code-->
+        <div id="trainbox">
             <h3>Trains</h3>
             <p></p>
              <video id="train1" autoplay loop>
@@ -105,60 +190,20 @@
             </video>
         </div>
 
-        <ul>
-            <li>Train</li>
+        <!--third info box code-->
+        <div id="busbox">
+            <h3>Bus</h3>
+        </div>
 
-            <li>Bus</li>
-           
-            <li>Metro</li>
-           
-        </ul>
-        <h2>Places to visit</h2>
-            <table>
-                <tr>
-                    <th>Location Name</th>
-                    <th>Climate</th>
-                    <th>Attractions</th>
-                </tr>
-                <tr>
-                    <th>temp</th>
-                    <th>temp</th>
-                    <th>temp</th>
-                </tr>
-                <tr>
-                    <th>temp</th>
-                    <th>temp</th>
-                    <th>temp</th>
-                </tr>
-                <tr>
-                    <th>temp</th>
-                    <th>temp</th>
-                    <th>temp</th>
-                </tr>
-                <tr>
-                    <th>temp</th>
-                    <th>temp</th>
-                    <th>temp</th>
-                </tr>
-            </table>
+        <!--fourth info box code-->
+        <div id="metrobox">
+            <h3>Metro</h3>
+        </div>
 
-            <button onclick="myFunction()">Click Me</button>
+        <!--fifth info box code-->
+        <div id="tripbox">
+            <h3>Trips</h3>
+        </div>
 
-            <div id="myDIV">
-                This is my DIV element.
-            </div>
-
-            <script>
-                function myFunction() {
-                var x = document.getElementById("myDIV");
-                if (x.style.display === "none") {
-                    x.style.display = "block";
-                } else {
-                    x.style.display = "none";
-                }
-            }
-            </script>
-
-       
     </body>
 </html>

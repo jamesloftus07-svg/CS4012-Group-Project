@@ -4,22 +4,27 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+  margin: 0;
 }
 
 
 h1 {
-  background-image: url(images/FranceTrain.png);
+  background-image: url(images);
   color: rgb(255, 255, 255);
   max-width: 100%;
   font-weight: bolder;
-  font-family: 'Monoton';font-size: 22px;
+  font-family: "Lobster", sans-serif;
   text-align: center;
-  font-size: 800%;
-  margin-bottom: 150px;
+  font-size: 1000%;
+  margin-bottom: -250px;
+  z-index: 900;
 }
 
-img{
- margin: auto;
+#trainphoto{
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 150px;
+  z-index: -999;
 }
 
 #train1 {
@@ -182,11 +187,11 @@ selector {
 }
 
 #dropbtn {
+  width: 20%;
   float: left;
   color: #060a2c;
   text-align: center;
   padding: 10px 56.93px;
-  text-decoration: none;
   font-family: 'Science Gothic';font-size: 22px;
   font-size: 20px;
   background-color: #ffffff;
@@ -206,7 +211,7 @@ selector {
 
 #dropbar {
   margin: 0 auto;
-  margin-bottom: 75px;
+  margin-bottom: 50px;
   max-width: 75%;
   background-color: #ffffff;
   overflow: hidden;
@@ -220,6 +225,7 @@ selector {
 }
 
 .topnav a {
+  width: 125px;
   float: left;
   color: #ffffff;
   text-align: center;

@@ -16,7 +16,7 @@ h1 {
   font-family: "Lobster", sans-serif;
   text-align: center;
   font-size: 1000%;
-  margin-bottom: -250px;
+  margin-bottom: 100px;
   z-index: 900;
 }
 
@@ -71,11 +71,9 @@ h3 {
 
 #trainbox {
   display: none;
-  margin-top: 100px;
   margin-right: 5px;
   margin-left: auto;
   width: 750px;
-  height: 1000px;
   border-radius: 10px;
   border: 2px solid #060a2c;
   background-image: linear-gradient(to bottom right,rgba(10, 10, 44, 0.751), rgb(19, 11, 59));
@@ -85,9 +83,7 @@ h3 {
 
 #busbox {
   display: none;
-  margin-top: 100px;
-  margin-right: 5px;
-  margin-left: auto;
+  margin-left: 10px;
   width: 750px;
   height: 1000px;
   border-radius: 10px;
@@ -99,7 +95,6 @@ h3 {
 
 #metrobox {
   display: none;
-  margin-top: 100px;
   margin-right: 5px;
   margin-left: auto;
   width: 750px;
@@ -113,9 +108,7 @@ h3 {
 
 #tripbox {
   display: none;
-  margin-top: 100px;
-  margin-right: 5px;
-  margin-left: auto;
+  margin-left: 10px;
   width: 750px;
   height: 1000px;
   border-radius: 10px;

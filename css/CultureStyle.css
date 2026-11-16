@@ -234,18 +234,18 @@ h3{
 }
 
 .music-card{
-    background-image: url("/images/music-card-background-image.jpg")
+    background-image: url("../images/music-card-background-image.jpg")
 }
 
 .art-card{
-    background-image: url("/images/images/Art-card-background.jpg");
+    background-image: url("../images/images/Art-card-background.jpg");
     border-color: white;
     border-width: 0.5px;
     border-color: black;
 }
 
 .media-card{
-    background-image: url("/images/images/Media-card-image.jpg");
+    background-image: url("../images/images/Media-card-image.jpg");
     border-color: rgb(23, 3, 250);
 }
 

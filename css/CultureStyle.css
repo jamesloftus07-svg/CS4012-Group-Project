@@ -164,11 +164,33 @@ h3{
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 2px solid rgba(255, 0, 0, 0.81);
+    text-align: center;
+    
+
+}
+
+/*ART*/
+.subPage-card2{
+    position: relative;
+    width: 260px;
+    height: 320px;
+    border-radius: 15px;
+    background-image: url("/images/music-card-background-image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 2px solid rgba(255, 0, 0, 0.442);
     text-align: center;
     
 
 }
+
 
 .music-art-media-nav-background-video{
     position: absolute;
@@ -200,6 +222,7 @@ h3{
 .card-title{
     
     color: black;
+    font-size: large;
     font-weight: 800;
     font-family: 'lobster', cursive;
     text-decoration: underline;
@@ -210,8 +233,20 @@ h3{
 
 }
 
+.music-card{
+    background-image: url("/images/music-card-background-image.jpg")
+}
 
+.art-card{
+    background-image: url("/images/images/Art-card-background.jpg");
+    border-color: white;
+    border-width: 0.5px;
+    border-color: black;
+}
 
-
+.media-card{
+    background-image: url("/images/images/Media-card-image.jpg");
+    border-color: rgb(23, 3, 250);
+}
 
 

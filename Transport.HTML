@@ -5,24 +5,32 @@
 </head>
     <body>
 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--font links for use in stylesheet-->
         <link href='https://fonts.googleapis.com/css?family=Science Gothic' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Monoton' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Alexandria' rel='stylesheet'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
 
         <!--top navigation bar-->
         <div class="topnav">
-         <a href="#Home">Home</a>
+         <a href="index.html">Home</a>
          <a href="#Food">Food</a>
-         <a class="active" href="#Transport">Transport</a>
-         <a href="#Culture">Culture</a>
+         <a class="active" href="Transport.HTML">Transport</a>
+         <a href="CulturePage.HTML">Culture</a>
          <a href="#Landmarks">Landmarks</a>
         </div>
 
-        <h1>TRANSPORT<br>in France</h1>
+
+        <h1>Transport<br>In France</h1>
         
 
         <div id="dropbar">
-         <button id="dropbtn" onclick="Dropdown1()">Introduction</button>
+         <button id="dropbtn" onclick="Dropdown1()">Intro</button>
          <button id="dropbtn" onclick="Dropdown2()">Trains</button>
          <button id="dropbtn" onclick="Dropdown3()">Bus</button>
          <button id="dropbtn" onclick="Dropdown4()">Metro</button>
@@ -37,7 +45,7 @@
             var c = document.getElementById("busbox");
             var d = document.getElementById("metrobox");
             var e = document.getElementById("tripbox");
-            if (a.style.display === "none") {
+            if (a.style.display = "none") {
                 a.style.display = "block";
                 b.style.display = "none";
                 c.style.display = "none";
@@ -54,7 +62,7 @@
             var c = document.getElementById("busbox");
             var d = document.getElementById("metrobox");
             var e = document.getElementById("tripbox");
-            if (b.style.display === "none") {
+            if (b.style.display = "none") {
                 b.style.display = "block";
                 a.style.display = "none";
                 c.style.display = "none";
@@ -71,7 +79,7 @@
             var c = document.getElementById("busbox");
             var d = document.getElementById("metrobox");
             var e = document.getElementById("tripbox");
-            if (c.style.display === "none") {
+            if (c.style.display = "none") {
                 c.style.display = "block";
                 a.style.display = "none";
                 b.style.display = "none";
@@ -88,7 +96,7 @@
             var c = document.getElementById("busbox");
             var d = document.getElementById("metrobox");
             var e = document.getElementById("tripbox");
-            if (d.style.display === "none") {
+            if (d.style.display = "none") {
                 d.style.display = "block";
                 a.style.display = "none";
                 b.style.display = "none";
@@ -105,7 +113,7 @@
             var c = document.getElementById("busbox");
             var d = document.getElementById("metrobox");
             var e = document.getElementById("tripbox");
-            if (e.style.display === "none") {
+            if (e.style.display = "none") {
                 e.style.display = "block";
                 b.style.display = "none";
                 c.style.display = "none";
@@ -178,27 +186,63 @@
                 </tr>
             </table>
         </div>
-
+        
+        
         <!--second info box code-->
         <div id="trainbox">
             <h3>Trains</h3>
-            <p></p>
+
+            <p>French trains are well known for high
+                 speed cross country travel, especially 
+                 networks such as the TGV which can 
+                 reach speeds of 320km/h so no matter 
+                 your destinations rest assured the 
+                 French train network can handle it.<br>
+                Frances largest rail network called 
+                the SNCF provides travel for 10,000,000 
+                passengers during 15,000 departures 
+                across 3,000 stations across the 
+                nation. </p>
+
              <video id="train1" autoplay loop>
                 <source src="videos/Train Rear Cam.mp4" type="video/mp4"> 
                 <a href="https://www.freestock.com/free-videos/train-passing-countryside-moving-railroad-tracks-2912188">Image used under license from Freestock.com</a>
                 your browser doesnt support html video
             </video>
+
+            <h3>Tickets</h3>
+
+            <p>
+
+            <ul>
+                <li></li>
+            </ul>
+
+            </p>
+            <table>
+                <tr>
+                    <th>TGV</th>
+                    <th><a href="https://www.sncf-connect.com/en-en/tgv">TGV tickets</a></th>
+                </tr>
+                <tr>
+                    <th></th>
+                </tr>
+            </table>
+            
         </div>
 
+        
         <!--third info box code-->
         <div id="busbox">
             <h3>Bus</h3>
         </div>
 
+
         <!--fourth info box code-->
         <div id="metrobox">
             <h3>Metro</h3>
         </div>
+
 
         <!--fifth info box code-->
         <div id="tripbox">

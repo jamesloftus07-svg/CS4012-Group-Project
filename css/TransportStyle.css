@@ -67,6 +67,7 @@ h3 {
   margin-right: 25px;
 }
 
+
  #introbox {
   display: none;
   box-sizing: border-box;
@@ -80,8 +81,7 @@ h3 {
   padding: 10px;
   color: rgb(255, 255, 255);
 }
-
-#images{
+#introimages{
   display: none;
   box-sizing: border-box;
   float: right;

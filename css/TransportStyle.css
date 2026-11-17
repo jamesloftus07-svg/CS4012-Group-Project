@@ -34,6 +34,11 @@ h1 {
   border-radius: 100px;
 }
 
+#parispostcard{
+  width: 250px;
+  float: right;
+}
+
 
 h2 {
   color: rgb(255, 255, 255);
@@ -57,16 +62,37 @@ h3 {
   font-size: 200%;
 }
 
+#intro{
+  width: 100%;
+  margin-right: 25px;
+}
+
  #introbox {
   display: none;
-  margin-left: 10px;
-  width: 750px;
+  box-sizing: border-box;
+  float: left;
+  margin-left: 2.5%;
+  width: 70%;
   height: 1050px;
   border-radius: 10px;
   border: 2px solid #060a2c;
   background-image: linear-gradient(to bottom right,rgba(10, 10, 44, 0.751), rgb(19, 11, 59));
   padding: 10px;
   color: rgb(255, 255, 255);
+}
+
+#images{
+  display: none;
+  box-sizing: border-box;
+  float: right;
+  margin-right: 2.5%;
+  width: 22.5%;
+  height: 1050px;
+  border-radius: 10px;
+  border: 2px solid #060a2c;
+  background-image: linear-gradient(to bottom right,rgba(10, 10, 44, 0.751), rgb(19, 11, 59));
+  padding: 10px;
+  color: rgb(255, 255, 255)
 }
 
 #trainbox {

@@ -249,4 +249,21 @@ h3{
     border-color: rgb(23, 3, 250);
 }
 
+.french-flag-banner-image{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+    object-position: center;
+    overflow: hidden;
+}
 
+.french-flag-banner-image{
+    width: 100%;
+    height: 100%;
+    margin: 0 !important; 
+    object-position: center 30%; 
+    display: block;
+    border-top: rgba(0, 0, 0, 0.5) solid 1px;
+    border-bottom: rgba(0, 0, 0, 0.581) solid 1px;
+    box-sizing: border-box;}

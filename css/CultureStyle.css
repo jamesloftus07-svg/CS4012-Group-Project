@@ -164,7 +164,7 @@ h3{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid rgba(255, 0, 0, 0.81);
+    border: 2px solid rgba(0, 34, 255, 0.81);
     text-align: center;
     
 
@@ -246,7 +246,7 @@ h3{
 
 .media-card{
     background-image: url("../images/images/Media-card-image.jpg");
-    border-color: rgb(23, 3, 250);
+    border-color: rgb(255, 0, 0);
 }
 
 .french-flag-banner-image{
@@ -269,3 +269,4 @@ h3{
     border-bottom: rgba(0, 0, 0, 0.581) solid 1px;
     box-sizing: border-box;
 }
+

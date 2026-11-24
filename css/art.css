@@ -194,17 +194,17 @@ margin-top: 100px;
 
 .FrenchArtSummaryParagraph {
     text-align: left;
-    font-family: 'Georgia', serif; /* Much cleaner and easier to read for multi-line text than Lobster */
+    font-family: 'Georgia', serif; 
     font-size: 18px;
     line-height: 1.7;
     color: #2c1e12;
     
-    /* Keeps the text block centered on the page while aligning the text inside to the left */
+    
     max-width: 750px;
     margin: 32px auto;
     padding: 20px 28px;
     
-    /* Subtle gallery accent on the left side */
+    
     background-color: #fbf8f3;
     border-left: 5px solid #b8860b;
     border-radius: 0 8px 8px 0;
@@ -264,7 +264,7 @@ margin-top: 100px;
   padding: 20px;
   margin-top: 30px;
 }
-
+/*RETURN BUTTON */
 .back-to-culture-button {
     display: block;
     margin: 40px auto;

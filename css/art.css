@@ -271,8 +271,13 @@ margin-top: 100px;
     padding: 30px 40px;
     font-size: 18px;
     font-family: 'Lobster', cursive;
-    color: #ffffff;
-    background-color: #733410;
+    color: #000000;
+    text-decoration: bold;
+    background-image: url("../images/images/ReturnToArtsMediaMusic-background.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
     border: none;
     border-radius: 6px;
     cursor: pointer;
@@ -299,6 +304,13 @@ margin-top: 100px;
     .back-to-culture-button:focus {
         transform: scale(1.05);
     text-decoration: underline;
-    color: #ffffff;
+    color: #000000;
     }
+}
+
+.back-to-culture-button-text{
+    background-color: rgba(251, 221, 196, 0.549);
+    border-radius: 8px;
+    margin: 10px;
+    
 }

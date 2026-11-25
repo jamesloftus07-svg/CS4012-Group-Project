@@ -7,12 +7,12 @@
     </head>
     <body>
         <!--top navigation bar-->
-        <div class="topnav"
+        <div class="topnav">
          <a href="index.html">Home</a>
-         <a href="#Food">Food</a>
+         <a href="Food.html">Food</a>
          <a href="Transport.HTML">Transport</a>
          <a class="active" href="CulturePage.HTML">Culture</a>
-         <a href="#Landmarks">Landmarks</a>
+         <a href="Landmarks.html">Landmarks</a>
         </div>`
 
        
@@ -148,84 +148,71 @@ To explore, please select an option below or scroll at your leisure through this
 
 
 <!--TRADITIONS AND CUSTOMS-->
-<div id="language"> 
-    <h3>
-     🗣️Language友
-    </h3>
-    
-<div class= "language-wrapper">
-    <div class="language-video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/_4N46dVx9nE?si=JX4hJ2_dMDV3mXpA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
-        title="Basic French Greetings and Pronunciation" 
-                allowfullscreen></iframe>
-                
-    <p class="language-intro">Spoken by over 300 million people across five continents, the French language is a cornerstone of France's national identity and global cultural influence. Known for its melodic rhythm, rich literary heritage, and role as an official language of international diplomacy, French reflects centuries of history, art, and tradition. Whether greeting a local baker with a polite Bonjour or exploring regional dialects from Brittany to Provence, understanding the language offers an authentic window into everyday French life.</p>
+<div id="Traditions-Customs"> 
+    <h3 class="traditions-and-customs-title">Traditions and Customs</h3>
+    <p5 class="traditions-and-customs-intro">French traditions and everyday customs are deeply rooted in history, community, and a shared appreciation for the art of living well. From grand national celebrations like Bastille Day to the unspoken etiquette of a warm Bonjour at the local bakery, these rituals shape daily life across France and bring people together around food, music, and conversation.</p5>
+    <h4 class="traditions-list-title">Top 5 French traditions</h4>
 
-    </div>
-    </div>
-    </div>
+    <ol class="traditions-list">
+        <li>
+            <h6>Bastille Day</h6>
+            <p>France's national holiday celebrated every July 14th, marking the 1789 storming of the Bastille with military parades down the Champs-Élysées, firemen's balls, and fireworks across the country.</p>
+            <img class="traditions-customs-img" src="/images/images/bastille-day.jpg" alt="Fireworks over the Eifil tower in Paris">
+        </li>
+        <li>
+            <h7>Café Culture & L'Apéro</h7>
+            <p>An essential daily ritual where friends gather at outdoor sidewalk cafés in the late afternoon for l'apéro (pre-dinner drinks and light snacks) to unwind and socialize before evening meals</p>
+            <img class="traditions-customs-img" src="/images/images/Cafe-Culture-LApero.avif" alt="Group of people on an outdoor Picnic">
+        </li>
+        <li>
+            <h8>La Bise (greeting etiquette)</h8>
+            <p>Politeness is central to French social life, every interaction begins with a warm Bonjour while friends and family greet each other with la bise (light cheek kisses).</p>
+            <img class="traditions-customs-img" src="/images/images/la-bise.webp" alt="French president greeting a woman by kissing her on the cheek">
+        </li>
+        <li>
+            <h9>Fête de la Musique</h9>
+            <p>Held every year on June 21st for the summer solstice, amateur and professional musicians fill streets, squares, and parks across every French town with free live concerts.</p>
+            <img class="traditions-customs-img" src="/images/images/fete-de-la-musique.jpg" alt="Man playing the guitar on a street in Paris">
+        </li>
+        <li>
+            <h10>Galette des Rois</h10>
+            <p>Celebrated every January for Epiphany, families share a golden puff-pastry almond cake hiding a tiny figurine (la fève) whoever finds it in their slice wears the paper crown for the day.</p>
+            <img class="traditions-customs-img" src="/images/images/galette-des-rois.jpg" alt="Gallete des Rois cake with a traditional paper crown on-top.">
+        </li>
+    </ol>
 
+    <div class="customs-quiz">
+        <h11 class="customs-quiz-title">Test your knowledge on French customs below!</h11>
+        <p class="customs-quiz-intro">Below are three questions, please awnser each question and tap submit to test your knowledge and get your score</p>
+        <div class="customs-quiz-box">
+    <!--- quiz code begins- links to culture-quiz.js -->
+    <form id="etiquette-quiz">
+        <p><strong>1. What should you always say first when entering a French shop?</strong></p>
+        <label><input type="radio" name="q1" value="a"> Merci</label><br>
+        <label><input type="radio" name="q1" value="b"> Bonjour</label><br>
+        <label><input type="radio" name="q1" value="c"> Au revoir</label>
 
-    <div class="cinema-stage">       
-<div class=cinema-background> <iframe width="560" height="315" src="https://www.youtube.com/embed/yvC_xrDqB3s?si=DGZ4DysO2YquAeKz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-        </div>
-        <h3 class="must-watch-title">Must watch 🍿 & Must read📖</h3>
+        <p><strong>2. What is L'Apéro in France?</strong></p>
+        <label><input type="radio" name="q2" value="a"> Pre-dinner drinks and light snacks</label><br>
+        <label><input type="radio" name="q2" value="b"> A morning pastry breakfast</label><br>
+        <label><input type="radio" name="q2" value="c"> A Sunday street market</label>
 
-<div class="media-grid">
-  <div class="media-card">
-    <img src="../images/images/Amelie-poster.jpg" alt="Amélie movie poster">
-    <figcaption>Amélie (2001)
-    A whimsical romantic comedy set in Montmartre about a shy waitress who secretly improves the lives of those around her.</figcaption>
-  </div>
+        <p><strong>3. When is Bastille Day (<em>Le 14 Juillet</em>) celebrated?</strong></p>
+        <label><input type="radio" name="q3" value="a"> June 21st</label><br>
+        <label><input type="radio" name="q3" value="b"> July 14th</label><br>
+        <label><input type="radio" name="q3" value="c"> January 6th</label><br><br>
 
-  <div class="media-card">
-    <img src="../images/images/theIntouchables-poster.jpg" alt="The Intouchables movie poster">
-    <figcaption>Intouchables (2011)
-    A heartwarming comedy-drama about an unlikely friendship between a wealthy quadriplegic aristocrat and his energetic caregiver.</figcaption>
-  </div>
+        <button type="button" onclick="gradeQuiz()">Submit Quiz</button>
+    </form>
 
-  <div class="media-card">
-    <img src="../images/images/lesQuate-poster.jpg" alt="The 400 Blows movie poster">
-    <figcaption>400 Blows (1959)  
-      François Truffaut's landmark French New Wave coming-of-age classic following a misunderstood teenager in Paris.</figcaption>
-  </div>
+    <p id="quiz-result"></p>
+    <!--Quiz code ends-->
 
-  <div class="media-card">
-    <img src="../images/images/lupin-poster.jpg" alt="Lupin series poster">
-    <figcaption>Lupin (2021–Present)
-    A modern hit series inspired by the classic gentleman thief Arsène Lupin, blending sleek Parisian heists with mystery.</figcaption>
-  </div>
-</div>
-
-<h2 class=must-read-title>Must-Read: French Literature</h2>
-<div class="media-grid">
-  <div class="media-card">
-    <img src="../images/images/theLittlePrint-poster.jpg" alt="The Little Prince book cover">
-    <figcaption>The Little Prince
-    <strong>Antoine de Saint-Exupéry</strong> — A poetic, illustrated novella about a young prince traveling from planet to planet, exploring love and human nature.</figcaption>
-  </div>
-
-  <div class="media-card">
-    <img src="../images/images/leMisérables-poster.jpg" alt="Les Misérables book cover">
-    <figcaption>Les Misérables
-    <strong>Victor Hugo</strong> — An epic 19th-century novel following Jean Valjean's quest for redemption amid social injustice and revolution in France.</figcaption>
-  </div>
-
-  <div class="media-card">
-    <img src="../images/images/theCountOfMontyCristo-poster.webp" alt="The Count of Monte Cristo book cover">
-    <figcaption> Count of Monte Cristo
-    <strong>Alexandre Dumas</strong> — A gripping adventure tale of betrayal, imprisonment, hidden treasure, and elaborate revenge.</figcaption>
-  </div>
-
-  <div class="media-card">
-    <img src="../images/images/theStranger-poster.jpg" alt="The Stranger book cover">
-    <figcaption> Stranger
-    <strong>Albert Camus</strong> — A short, influential 20th-century philosophical novel examining absurdity and alienation.</figcaption>
-  </div>
+   
 </div>
 
 
-
+ <!--Link to culture-quiz.js below-->
+    <script src="culture-quiz.js"></script>
 </body>
 </html>

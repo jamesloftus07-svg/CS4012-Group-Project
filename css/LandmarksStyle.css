@@ -168,3 +168,34 @@ footer {
     padding: 10px;
   }
 }
+/* ----- Travel info box under each landmark ----- */
+.visit-info {
+  background-color: #eef2fb;
+  border-left: 4px solid #1f4fa3;
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+/* ----- Cards lift slightly when the mouse goes over them ----- */
+article {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+article:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* ----- "Did you know?" fun fact box ----- */
+.fun-fact {
+  background-color: #fff4f5;
+  border: 2px dashed #c8102e;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin-bottom: 30px;
+}
+
+.fun-fact h3 {
+  color: #c8102e;
+  margin-top: 0;
+}

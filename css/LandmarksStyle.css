@@ -168,3 +168,11 @@ footer {
     padding: 10px;
   }
 }
+/* ----- Travel info box under each landmark ----- */
+.visit-info {
+  background-color: #eef2fb;
+  border-left: 4px solid #1f4fa3;
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-weight: bold;
+}

@@ -146,6 +146,17 @@ footer {
   margin-top: 30px;
 }
 
+/* ----- Picture beside text using flexbox ----- */
+.side-by-side {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.side-by-side img {
+  width: 45%;
+  margin: 0;
+}
 /* =========================================
    RESPONSIVE: phones and small tablets
    ========================================= */

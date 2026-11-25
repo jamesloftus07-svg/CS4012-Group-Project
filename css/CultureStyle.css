@@ -33,6 +33,26 @@ html{
 }
 
 /*END NAV bar contents*/
+/*PAGE MAIN BODY STARTS HERE */
+
+.culture-intro{
+     max-width: 900px;
+    margin: 20px auto 35px auto;
+    padding: 22px 28px;
+    background-color: #fbf8f3;
+    border: 3px solid #c4a159;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 1.65;
+    color: #060a2c;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+}
+
 img{
     width: 80%;
     height: 50%;
@@ -59,21 +79,42 @@ p2{
 }
 
 /*Page sub nav bar contents*/
+
+.explore-buttons-border{
+     max-width: 900px;
+    margin: 20px auto 35px auto;
+    padding: 22px 28px;
+    background-color: #fbf8f3;
+    border: 3px solid #c4a159;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 1.65;
+    color: #060a2c;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+}
+
 .explore-buttons-container{
     display: flex;
     justify-content: center;
     gap: 20px;
-
+ border: solid 1px black;
+    border-radius: 20px;
 }
 
-.button-box{
-    width: 70px;
+
+.button-box-1{
+    width: 200px;
     height: 60px;
     display: flex;
     align-items: center;
-    background-color: cornflowerblue;
+    background-color: #fbf8f3;
     border-width: 2px;
-    border-color: rgb(125, 196, 232);
+    border-color: rgb(4, 29, 255);
     border-radius:  15px;
     text-decoration: none;
     border-style: solid;
@@ -82,6 +123,37 @@ p2{
     color: black;
 } 
 
+.button-box-2{
+    width: 200px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #f8f8f8;
+    border-width: 2px;
+    border-color: rgba(252, 252, 252, 0.978);
+    border-radius:  15px;
+    text-decoration: none;
+    border-style: solid;
+    transition: 0.6s ease;
+    overflow: hidden;
+    color: black;
+    border:solid 0.5px black;
+} 
+.button-box-3{
+    width: 200px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #fbf8f3;
+    border-width: 2px;
+    border-color: rgb(255, 0, 0);
+    border-radius:  15px;
+    text-decoration: none;
+    border-style: solid;
+    transition: 0.6s ease;
+    overflow: hidden;
+    color: black;
+} 
 .nav-button-text{
     text-decoration: none;
     white-space: nowrap;
@@ -98,7 +170,9 @@ p2{
     
 }
 
-.button-box:hover{
+.button-box-1:hover,
+.button-box-2:hover,
+.button-box-3:hover{
     width: 350px;
     
 }
@@ -136,6 +210,24 @@ h3{
     margin-left: 20%;
     margin-right: 20%;
 
+}
+/*MUSIC ART MEDIA STARTS HERE */    
+.music-art-media-intro{
+     max-width: 900px;
+    margin: 20px auto 35px auto;
+    padding: 22px 28px;
+    background-color: #fbf8f3;
+    border: 3px solid #c4a159;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 1.65;
+    color: #060a2c;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
 }
 
 
@@ -442,7 +534,24 @@ h3{
     display: block;
 
 }
-
+.traditions-list-title{
+    margin: 20px auto 35px auto;
+    padding: 22px 28px;
+    background-color: #fbf8f3;
+    border: 3px solid #c4a159;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 1.65;
+    color: #060a2c;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 0;
+    font-weight: bold;
+}
 .traditions-list{
       max-width: 900px;
     margin: 20px auto 35px auto;
@@ -459,6 +568,12 @@ h3{
     text-align: center;
     box-sizing: border-box;
     display: block;
+    
+}
+
+.traditions-list-internal-title{
+    font-weight: bold;
+    font-size: 22px;
 }
 
 .traditions-customs-img{
@@ -553,10 +668,7 @@ h3{
     border-radius: 10px;
 }
 
-.culture-outro-text{
-    
 
-}
 
 .culture-outro-title{
     max-width: 900px;
@@ -581,4 +693,19 @@ padding: 22px 28px;
     text-align: center;
     box-sizing: border-box;
     display: block;
+}
+
+
+/*FOOTER CODE */
+ footer { 
+  background-color: #10183a;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+  background-color: #10183a;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
 }

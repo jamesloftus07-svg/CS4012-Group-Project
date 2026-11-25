@@ -58,7 +58,7 @@ html, body {
     line-height: 1.6;
 }
 
-/* Museum Gallery Wall & Golden Frames */
+/* paitings styling */
 .frenchArtImages {
     display: flex;
     flex-direction: row;
@@ -124,7 +124,7 @@ html, body {
                 inset 0 1px 0 rgba(255, 255, 255, 0.3);
 }
 
-/* Full-Width Wooden Map Table */
+/* MAP TABLE */
 .table-container {
     background-image: url("../images/images/art-mapTable.jpeg");
     background-size: 100% 100%;
@@ -154,7 +154,7 @@ html, body {
     box-sizing: border-box;
 }
 
-/* Mobile Responsive Layout */
+/*  code for mobile!*/
 @media (max-width: 768px) {
     .frenchArtImages {
         flex-direction: column;
@@ -251,7 +251,7 @@ margin-top: 100px;
     font-style: italic;
     font-size: 16px;
 }
-
+/*FOOTER CODE */
  footer { 
   background-color: #10183a;
   color: #ffffff;

@@ -469,3 +469,116 @@ h3{
     height: auto;
 
 }
+
+.customs-quiz{
+    max-width: 900px;
+    margin: 20px auto 35px auto;
+    padding: 22px 28px;
+    background-color: #fbf8f3;
+    border: 3px solid #078bff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 1.65;
+    color: #060a2c;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+}
+
+.customs-quiz-title{
+    
+    text-emphasis: bold;
+     max-width: 900px;
+    margin: 20px auto 35px auto;
+    padding: 22px 28px;
+    background-color: #ffffff;
+    border: 3px solid #1e87f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 1.65;
+    color: #060a2c;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+}
+
+.customs-quiz-box{
+     max-width: 900px;
+    margin: 20px auto 35px auto;
+    padding: 22px 28px;
+    background-color: #ffffff;
+    border: 3px solid #ff0000;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 1.65;
+    color: #060a2c;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+}
+
+.quiz-submit-button{
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+    padding: 12px 28px;
+    font-size: 16px;
+    transition: all 1s ease-in-out;
+}
+
+.quiz-submit-button:hover{
+    background-image:url("../images/frenchFlagCulture.png");
+    transform: scale(1.05);
+    color: #000000;
+    transition: all 1s ease-in-out;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.submit-button-text{
+    background-color: rgba(255, 255, 255, 0.185);
+    padding:10px 10px;
+    text-decoration: underline;
+    border-radius: 10px;
+}
+
+.culture-outro-text{
+    
+
+}
+
+.culture-outro-title{
+    max-width: 900px;
+    margin: 20px auto 35px auto;
+    text-decoration: underline;
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    
+}
+
+.culture-outro-box{
+padding: 22px 28px;
+    background-color: #fbf8f3;
+    border: 3px solid #c4a159;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 1.65;
+    color: #060a2c;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+}

@@ -161,7 +161,14 @@ footer {
    RESPONSIVE: phones and small tablets
    ========================================= */
 @media (max-width: 600px) {
+/* On phones, stack the picture on top of the text */
+  .side-by-side {
+    flex-direction: column;
+  }
 
+  .side-by-side img {
+    width: 100%;
+  }
   /* Menu links stack on top of each other */
   .topnav a {
     float: none;

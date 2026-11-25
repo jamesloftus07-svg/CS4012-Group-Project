@@ -129,4 +129,23 @@
         </section>
     </main>
 
+    <script>
+        const buttons = document.querySelectorAll('.tab-btn');
+        const boxes = document.querySelectorAll('.food-box');
+
+        buttons.forEach(button => {
+            button.addEventListener('click', () => {
+                buttons.forEach(btn => btn.classList.remove('active-btn'));
+                boxes.forEach(box => box.classList.remove('active-box'));
+
+                button.classList.add('active-btn');
+                const targetId = button.getAttribute('data-target');
+                document.getElementById(targetId).classList.add('active-box');
+            });
+        });
+    </script>
+
+</body>
+</html>
+
 

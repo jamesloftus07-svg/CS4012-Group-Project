@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
 <title>Transport in France</title>
-<link rel="stylesheet" href="css/TransportStyle.css">
-</head>
-    <body>
+<link rel="stylesheet" href="TransportTemp.css">
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <!--font links for use in stylesheet-->
+<!--font links for use in stylesheet-->
         <link href='https://fonts.googleapis.com/css?family=Science Gothic' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Monoton' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Alexandria' rel='stylesheet'>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+    <body>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
         <!--top navigation bar-->
@@ -22,10 +22,15 @@
          <a href="#Food">Food</a>
          <a class="active" href="Transport.HTML">Transport</a>
          <a href="CulturePage.HTML">Culture</a>
-         <a href="#Landmarks">Landmarks</a>
+         <a href="Landmarks.html">Landmarks</a>
         </div>
 
-        <h1>Transport<br>In France</h1>
+        <div id="title">
+            <img id="titleImage" src="images/French Train mountain background.jpg" 
+            alt="Train traveling through the French countryside with mountains and 
+            lakeside village in the background">
+            <div id="Heading">Transport in France</div>
+        </div>
 
         <div id="dropbar">
          <button id="dropbtn" onclick="Dropdown1()">Intro</button>
@@ -62,10 +67,10 @@
             var c = document.getElementById("busbox");
             var d = document.getElementById("metrobox");
             var e = document.getElementById("tripbox");
-
+            
             if (b.style.display = "none") {
-                b.style.display = "block";
                 a.style.display = "none";
+                b.style.display = "block";
                 c.style.display = "none";
                 d.style.display = "none";
                 e.style.display = "none";
@@ -139,6 +144,7 @@
 
         <!--first info box code-->
         <div id="introbox">
+
             <h3>Introduction</h3>
 
             <p id="p1">So you’re planning a trip to France, one of the most
@@ -150,17 +156,9 @@
             </p>
 
             <p id="p1">The types of tranport you 
-                can be sure to find include:
+                can be sure to find include buses, trains and metro
             </p>
 
-             <ul>
-            <li>Train</li>
-
-            <li>Bus</li>
-           
-            <li>Metro</li>
-            </ul>
-            
             <p id="p1">There are many different circumstances when traveling 
                 that are better suited for one mode of 
                 transport over another. <br>This graph can be 
@@ -194,15 +192,12 @@
                 </tr>
             </table>
         </div>
-        <div id="introimages">
-            <p>hello there</p>
-        </div>
 
         <!--second info box code-->
-        <div id="trainbox">
-            <h3>Trains</h3>
+            <div id="trainbox">
+                <h3>Trains</h3>
 
-            <p>French trains are well known for high
+                <p>French trains are well known for high
                  speed cross country travel, especially 
                  networks such as the TGV which can 
                  reach speeds of 320km/h so no matter 
@@ -214,32 +209,32 @@
                 across 3,000 stations across the 
                 nation. </p>
 
-             <video id="train1" autoplay loop>
-                <source src="videos/Train Rear Cam.mp4" type="video/mp4"> 
-                <a href="https://www.freestock.com/free-videos/train-passing-countryside-moving-railroad-tracks-2912188">Image used under license from Freestock.com</a>
-                your browser doesnt support html video
-            </video>
+                <video id="trainVideo" autoplay loop>
+                    <source src="videos/Train Rear Cam.mp4" type="video/mp4"> 
+                    <a href="https://www.freestock.com/free-videos/train-passing-countryside-moving-railroad-tracks-2912188">Image used under license from Freestock.com</a>
+                    your browser doesnt support html video
+                </video>
 
-            <h3>Tickets</h3>
+                <h3>Tickets</h3>
 
-            <p>
+                <p>
 
-            <ul>
-                <li></li>
-            </ul>
+                <ul>
+                    <li></li>
+                </ul>
 
-            </p>
-            <table>
-                <tr>
-                    <th>TGV</th>
-                    <th><a href="https://www.sncf-connect.com/en-en/tgv">TGV tickets</a></th>
-                </tr>
-                <tr>
-                    <th></th>
-                </tr>
-            </table>
+                </p>
+                <table>
+                    <tr>
+                        <th>TGV</th>
+                        <th><a href="https://www.sncf-connect.com/en-en/tgv">TGV tickets</a></th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                    </tr>
+                </table>
             
-        </div>
+            </div>
 
         
         <!--third info box code-->
@@ -247,17 +242,19 @@
             <h3>Bus</h3>
         </div>
 
-
         <!--fourth info box code-->
         <div id="metrobox">
             <h3>Metro</h3>
         </div>
 
-
         <!--fifth info box code-->
         <div id="tripbox">
             <h3>Trips</h3>
         </div>
+
+        <footer>
+            Discover France - CS4012 Group Project
+        </footer>
 
     </body>
 </html>

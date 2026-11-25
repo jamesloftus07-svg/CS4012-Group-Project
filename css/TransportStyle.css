@@ -20,25 +20,6 @@ h1 {
   z-index: 900;
 }
 
-#trainphoto{
-  width: 100%;
-  margin: 0 auto;
-  margin-bottom: 150px;
-  z-index: -999;
-}
-
-#train1 {
-  width: 450px;
-  display: block;
-  margin: 0 auto;
-  border-radius: 100px;
-}
-
-#parispostcard{
-  width: 250px;
-  float: right;
-}
-
 
 h2 {
   color: rgb(255, 255, 255);
@@ -49,9 +30,7 @@ h2 {
   font-size: 350%;
 }
 
-#intro {
-  margin-top: 50px;
-}
+
 
 h3 {
   color: rgb(255, 255, 255);
@@ -62,85 +41,71 @@ h3 {
   font-size: 200%;
 }
 
-#intro{
-  width: 100%;
-  margin-right: 25px;
-}
-
 
  #introbox {
   display: none;
   box-sizing: border-box;
-  float: left;
-  margin-left: 2.5%;
+  margin: auto;
   width: 70%;
-  height: 1050px;
   border-radius: 10px;
   border: 2px solid #060a2c;
   background-image: linear-gradient(to bottom right,rgba(10, 10, 44, 0.751), rgb(19, 11, 59));
   padding: 10px;
+  padding-bottom: 25px;
   color: rgb(255, 255, 255);
-}
-#introimages{
-  display: none;
-  box-sizing: border-box;
-  float: right;
-  margin-right: 2.5%;
-  width: 22.5%;
-  height: 1050px;
-  border-radius: 10px;
-  border: 2px solid #060a2c;
-  background-image: linear-gradient(to bottom right,rgba(10, 10, 44, 0.751), rgb(19, 11, 59));
-  padding: 10px;
-  color: rgb(255, 255, 255)
 }
 
 #trainbox {
   display: none;
-  margin-right: 5px;
-  margin-left: auto;
-  width: 750px;
+  box-sizing: border-box;
+  margin: auto;
+  width: 70%;
   border-radius: 10px;
   border: 2px solid #060a2c;
   background-image: linear-gradient(to bottom right,rgba(10, 10, 44, 0.751), rgb(19, 11, 59));
   padding: 10px;
+  padding-bottom: 25px;
   color: rgb(255, 255, 255);
 }
 
 #busbox {
   display: none;
-  margin-left: 10px;
+  box-sizing: border-box;
+  margin: auto;
   width: 750px;
   height: 1000px;
   border-radius: 10px;
   border: 2px solid #060a2c;
   background-image: linear-gradient(to bottom right,rgba(10, 10, 44, 0.751), rgb(19, 11, 59));
   padding: 10px;
+  padding-bottom: 25px;
   color: rgb(255, 255, 255);
 }
 
 #metrobox {
   display: none;
-  margin-right: 5px;
-  margin-left: auto;
+  margin: auto;
   width: 750px;
   height: 1000px;
   border-radius: 10px;
   border: 2px solid #060a2c;
   background-image: linear-gradient(to bottom right,rgba(10, 10, 44, 0.751), rgb(19, 11, 59));
   padding: 10px;
+  padding-bottom: 25px;
   color: rgb(255, 255, 255);
 }
 
 #tripbox {
   display: none;
-  margin-left: 10px;
+  box-sizing: border-box;
+  margin: auto;
   width: 750px;
   height: 1000px;
   border-radius: 10px;
   border: 2px solid #060a2c;
   background-image: linear-gradient(to bottom right,rgba(10, 10, 44, 0.751), rgb(19, 11, 59));
   padding: 10px;
+  padding-bottom: 25px;
   color: rgb(255, 255, 255);
 }
 
@@ -205,6 +170,7 @@ selector {
   border: width style color;
 }
 
+
 #dropbtn {
   width: 20%;
   float: left;
@@ -264,3 +230,10 @@ selector {
   color: #060a2c;
 }
 
+footer {
+  background-color: #10183a;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}

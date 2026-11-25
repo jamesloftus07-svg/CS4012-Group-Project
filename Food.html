@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food in France</title>
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Alexandria:wght@400;600&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/food.css">
+</head>
+
+<body>
+
+    <nav class="topnav">
+        <a href="index.html">Home</a>
+        <a class="active" href="Food.html">Food</a>
+        <a href="Transport.HTML">Transport</a>
+        <a href="CulturePage.HTML">Culture</a>
+      <a href="Landmarks.html">Landmarks</a>
+    </nav>
+
+    <header class="hero">
+        <h1>Food in France</h1>
+        <p>A guide to iconic pastries, regional dishes, and dining customs across France.</p>
+    </header>
+
+    <main class="container">
+        <aside class="sidebar-menu">
+            <button type="button" class="tab-btn active-btn" data-target="introbox">Overview</button>
+            <button type="button" class="tab-btn" data-target="pastrybox">Boulangerie & Pastries</button>
+            <button type="button" class="tab-btn" data-target="mainsbox">Classic Mains</button>
+            <button type="button" class="tab-btn" data-target="cheesebox">Cheese & Markets</button>
+            <button type="button" class="tab-btn" data-target="etiquettebox">Dining Tips</button>
+        </aside>
+
+        <section class="content-area">
+            <div id="introbox" class="food-box active-box">
+                <h2>Introduction to French Cuisine</h2>
+                <p>Food is at the heart of daily life in France. From morning walks to the local bakery to unhurried evening meals, French cuisine celebrates fresh seasonal ingredients and regional traditions.</p>
+                <ul>
+                    <li><strong>Boulangerie:</strong> Artisanal bakeries for fresh baguettes and croissants.</li>
+                    <li><strong>Bistro & Brasserie:</strong> Casual restaurants serving hearty traditional meals.</li>
+                    <li><strong>Fromagerie:</strong> Specialty shops dedicated to regional cheeses.</li>
+                </ul>
+                <table>
+                    <tr><th>Food Item</th><th>Where to Find It</th><th>Typical Price</th></tr>
+                    <tr><td>Croissant or Pain au Chocolat</td><td>Boulangerie</td><td>€1.20–€1.80</td></tr>
+                    <tr><td>Crêpe (Sweet or Savoury)</td><td>Crêperie / Street Stand</td><td>€4–€10</td></tr>
+                    <tr><td>Steak Frites</td><td>Bistro / Brasserie</td><td>€16–€24</td></tr>
+                    <tr><td>Formule Midi (2-Course Lunch)</td><td>Local Café / Bistro</td><td>€15–€22</td></tr>
+                </table>
+            </div>
+
+            <div id="pastrybox" class="food-box">
+                <h2>Boulangerie & Pastries</h2>
+                <img class="section-img" src="images/croissants.jpg.jpg" alt="Golden flaky French croissants">
+                <p>Under French law, a shop can only call itself a <em>boulangerie</em> if it bakes its bread from scratch on the premises. Grabbing a warm <em>baguette tradition</em> is a daily ritual.</p>
+                <p>For something sweet, visit a <em>pâtisserie</em> to try flaky mille-feuille, fruit tarts, éclairs, and colourful macarons.</p>
+            </div>
+
+            <div id="mainsbox" class="food-box">
+                <h2>Classic French Mains</h2>
+                <img class="section-img" src="images/ratatouille.jpg.jpg" alt="Traditional French ratatouille with vegetables in a tomato sauce">
+                <p>Every region in France has its own signature dishes. In Burgundy, slow-cooked <strong>Boeuf Bourguignon</strong> is a staple, while Brittany is famous for savoury buckwheat <strong>galettes</strong>.</p>
+                <p>Other must-try classics include <strong>Ratatouille</strong> from Provence, <strong>Coq au Vin</strong>, and rich <strong>French Onion Soup</strong> topped with melted Gruyère cheese.</p>
+            </div>
+
+            <div id="cheesebox" class="food-box">
+                <h2>Cheese & Open-Air Markets</h2>
+                <img class="section-img" src="images/cheese.jpg.jpg" alt="Assortment of French cheeses on a wooden board">
+                <p>France produces over 1,000 varieties of cheese, ranging from soft, creamy <strong>Brie</strong> and <strong>Camembert</strong> to nutty aged <strong>Comté</strong> and tangy <strong>Roquefort</strong>.</p>
+                <p>Visiting a morning town market is the best way to sample local cheeses, olives, and fresh produce straight from regional farmers.</p>
+            </div>
+
+            <div id="etiquettebox" class="food-box">
+                <h2>French Dining Etiquette</h2>
+                <img class="section-img" src="images/fsidewalk.jpg.jpg" alt="Charming Parisian sidewalk cafe">
+                <p>Knowing a few local customs makes eating out in France much smoother:</p>
+                <ul>
+                    <li><strong>Say "Bonjour":</strong> Always greet staff with <em>Bonjour</em> when entering a café, shop, or bakery.</li>
+                    <li><strong>Ask for the bill:</strong> Waiters will not rush you—ask for <em>"L'addition, s'il vous plaît"</em> when you are ready to pay.</li>
+                    <li><strong>Free tap water:</strong> Ask for a <em>"carafe d'eau"</em> for complimentary tap water instead of bottled water.</li>
+                    <li><strong>Tipping:</strong> Service is included in the bill by law (<em>service compris</em>), though leaving €1–€2 for great service is appreciated.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        const buttons = document.querySelectorAll('.tab-btn');
+        const boxes = document.querySelectorAll('.food-box');
+
+        buttons.forEach(button => {
+            button.addEventListener('click', () => {
+                buttons.forEach(btn => btn.classList.remove('active-btn'));
+                boxes.forEach(box => box.classList.remove('active-box'));
+
+                button.classList.add('active-btn');
+                const targetId = button.getAttribute('data-target');
+                document.getElementById(targetId).classList.add('active-box');
+            });
+        });
+    </script>
+
+</body>
+</html>

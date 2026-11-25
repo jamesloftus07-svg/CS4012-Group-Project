@@ -133,7 +133,12 @@ tr:nth-child(even) {
 }
 
 /* ----- Footer ----- */
-footer {
+footer { 
+  background-color: #10183a;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
   background-color: #10183a;
   color: #ffffff;
   text-align: center;

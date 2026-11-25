@@ -176,3 +176,12 @@ footer {
   border-radius: 6px;
   font-weight: bold;
 }
+/* ----- Cards lift slightly when the mouse goes over them ----- */
+article {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+article:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}

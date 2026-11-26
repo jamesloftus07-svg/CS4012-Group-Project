@@ -1,4 +1,144 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: aliceblue;
-    
+    font-family: 'Alexandria', sans-serif;
+    background: #f8fafc;
+    color: #1e293b;
+    line-height: 1.6;
+}
+
+.tricolor-bar {
+    height: 8px;
+    width: 100%;
+    background: linear-gradient(
+        90deg,
+        #002395 0%,
+        #002395 33.33%,
+        #ffffff 33.33%,
+        #ffffff 66.66%,
+        #ed2939 66.66%,
+        #ed2939 100%
+    );
+}
+
+.topnav {
+    background: #002395;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0.75rem;
+    gap: 1rem;
+}
+
+.topnav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.5rem 1.1rem;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    transition: 0.2s;
+}
+
+.topnav a:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.topnav a.active {
+    background: #ed2939;
+    font-weight: 600;
+}
+
+.hero {
+    text-align: center;
+    padding: 3.5rem 1rem 2.5rem;
+    background: linear-gradient(135deg, #eff6ff 0%, #ffffff 50%, #fff1f2 100%);
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.hero h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 3.6rem;
+    color: #002395;
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    color: #475569;
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.home-container {
+    max-width: 800px;
+    margin: 2.5rem auto;
+    padding: 0 1.5rem;
+}
+
+.card {
+    background: #ffffff;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e2e8f0;
+    text-align: center;
+}
+
+.card h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    color: #ed2939;
+    margin-bottom: 1.75rem;
+}
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.nav-btn {
+    display: block;
+    text-decoration: none;
+    padding: 1.1rem 1.5rem;
+    border-radius: 8px;
+    font-size: 1.05rem;
+    font-weight: 600;
+    transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.nav-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+}
+
+.btn-blue {
+    background: #002395;
+    color: #ffffff;
+    border: 2px solid #002395;
+}
+
+.btn-white {
+    background: #ffffff;
+    color: #002395;
+    border: 2px solid #002395;
+}
+
+.btn-red {
+    background: #ed2939;
+    color: #ffffff;
+    border: 2px solid #ed2939;
+}
+
+@media (max-width: 600px) {
+    .button-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero h1 {
+        font-size: 2.7rem;
+    }
 }

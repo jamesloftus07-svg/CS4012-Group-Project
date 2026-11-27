@@ -109,7 +109,7 @@ P{
     width: 260px;
     height: 320px;
     border-radius: 15px;
-    background-image: url("/images/images/music-art-media-nav-button.jpeg");
+    background-image: url("../images/images/music-art-media-nav-button.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -129,7 +129,7 @@ P{
     width: 260px;
     height: 320px;
     border-radius: 15px;
-    background-image: url("/images/images/french-language-nav-button.jpeg");
+    background-image: url("../images/images/french-language-nav-button.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -150,7 +150,7 @@ P{
     width: 260px;
     height: 320px;
     border-radius: 15px;
-    background-image: url("/images/images/traditions-customs-nav-button.jpeg");
+    background-image: url("../images/images/traditions-customs-nav-button.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

@@ -1,4 +1,4 @@
-26456222	James Loftus                    25%
-26439727	Micheál Carmody                 25%
-26438305	Ríoghan O Sullivan              25%
-26443627	Conor Hayes                     25%
+26456222	James Loftus                    25%  Page(s):culture.html,(Subpages:music.html,art.html,media.html)
+26439727	Micheál Carmody                 25%  Page(s):Transport.html
+26438305	Ríoghan O Sullivan              25%  Page(s):Food.html, index.html
+26443627	Conor Hayes                     25%  Page(s):landmarks.html

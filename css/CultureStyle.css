@@ -685,7 +685,7 @@ padding: 22px 28px;
   padding: 20px;
   margin-top: 30px;
 }
-
+/*MOBILE CODE */
 @media (max-width: 768px) {
     .language-video iframe,
     iframe {
@@ -707,16 +707,15 @@ padding: 22px 28px;
         width: 100%;
         margin: 0;
         padding: 12px;
-        text-decoration: none; /* Removes the underline from every phrase */
+        text-decoration: none; 
         box-sizing: border-box;
     }
 
-    /* Hides the column headers since each row now stacks as its own mini-card */
     .musicSampleContainer th {
         display: none;
     }
 
-    /* Separates each phrase + translation + audio group cleanly */
+    
     .musicSampleContainer tr {
         display: block;
         width: 100%;
@@ -736,7 +735,7 @@ padding: 22px 28px;
         box-sizing: border-box;
     }
 
-    /* Makes the English phrase bold so it stands out from the French translation */
+    
     .musicSampleContainer td:first-child {
         font-weight: bold;
         font-size: 18px;

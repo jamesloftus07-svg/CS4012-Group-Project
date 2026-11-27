@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
 <title>Transport in France</title>
 <link rel="stylesheet" href="css/TransportStyle.css">
 
@@ -11,15 +13,13 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 </head>
-    <body>
-
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <body>
 
 
         <!--top navigation bar-->
         <div class="topnav">
          <a href="index.html">Home</a>
-         <a href="#Food">Food</a>
+         <a href="Food.html">Food</a>
          <a class="active" href="Transport.HTML">Transport</a>
          <a href="CulturePage.HTML">Culture</a>
          <a href="Landmarks.html">Landmarks</a>
@@ -28,11 +28,11 @@
         <h1>Transport in France</h1>
 
         <div id="dropbar">
-         <button id="dropbtn" onclick="Dropdown1()">Intro</button>
-         <button id="dropbtn" onclick="Dropdown2()">Trains</button>
-         <button id="dropbtn" onclick="Dropdown3()">Bus</button>
-         <button id="dropbtn" onclick="Dropdown4()">Metro</button>
-         <button id="dropbtn" onclick="Dropdown5()">Trips</button>
+         <button class="dropbtn" onclick="Dropdown1()">Intro</button>
+         <button class="dropbtn" onclick="Dropdown2()">Trains</button>
+         <button class="dropbtn" onclick="Dropdown3()">Bus</button>
+         <button class="dropbtn" onclick="Dropdown4()">Metro</button>
+         <button class="dropbtn" onclick="Dropdown5()">Trips</button>
         </div>
 
         <!--Start of script for button bar toggeling info boxes visibility-->
@@ -140,7 +140,7 @@
         <!--first info box code-->
         <div id="introbox">
 
-            <h3>|Introduction</h3>
+            <h2>|Introduction</h2>
 
             <p>So you’re planning a trip to France, one of the most
                  important things you need to know is how to get from your 
@@ -154,9 +154,9 @@
                 can be sure to find include buses, trains and metro
             </p>
             <div id="IntroImages">
-            <img id="introTrainImage" src="images/train in station.jpg" alt="Modern train stopped in starion">
-            <img id="introBusImage" src="images/bus outside museum.jpg" alt="Bus picking up passengers outside french Museum">
-            <img id="introMetroImage" src="images/metro over bridge.avif" alt="Metro travelling over bridge in the city">
+            <img id="introTrainImage" src="images/train_in_station.jpg" alt="Modern train stopped in starion">
+            <img id="introBusImage" src="images/bus_outside_museum.jpg" alt="Bus picking up passengers outside french Museum">
+            <img id="introMetroImage" src="images/metro_over_bridge.avif" alt="Metro travelling over bridge in the city">
             </div>
 
 
@@ -167,9 +167,9 @@
                 one and for what price:</p>
             <table>
                 <tr>
-                    <th id="th1">Transport Type</th>
-                    <th id="th1">Use</th>
-                    <th id="th1">Pricing</th>
+                    <th>Transport Type</th>
+                    <th>Use</th>
+                    <th>Pricing</th>
                 </tr>
                 <tr>
                     <th>Bus</th>
@@ -196,7 +196,12 @@
 
         <!--second info box code-->
             <div id="trainbox">
-                <h3>|Trains</h3>
+                <h2>|Trains</h2>
+
+                <video id="trainVideo" autoplay loop>
+                    <source src="videos/train_travelling_through_country.mp4" type="video/mp4"> 
+                    your browser doesnt support html video
+                </video>
 
                 <p>French trains are well known for high
                  speed cross country travel, especially 
@@ -210,28 +215,48 @@
                 across 3,000 stations across the 
                 nation. </p>
 
-                <video id="trainVideo" autoplay loop>
-                    <source src="videos/Train Rear Cam.mp4" type="video/mp4"> 
-                    <a href="https://www.freestock.com/free-videos/train-passing-countryside-moving-railroad-tracks-2912188">Image used under license from Freestock.com</a>
-                    your browser doesnt support html video
-                </video>
-
-                <h3>Tickets</h3>
-
+                <h2>|Tickets</h2>
+                
                 <p>
+                   There are many methods of purchasing 
+                   train tickets on your travels such as, 
+                   online methods and offline methods.
+                </p>
 
                 <ul>
-                    <li></li>
+                    <li>
+                        SNCF Connect app
+                    </li>
+                    <li>
+                        Trainline website
+                    </li>
+                    <li>
+                        OUIGO tickets
+                    </li>
                 </ul>
 
+                <ul>
+                    <li>
+                        Ticket offices in station
+                    </li>
+                    <li>
+                        Self service machines in station
+                    </li>
+                </ul>
+                
+                <p>
+                    Here are some links for 
+                    ticket booking websites:
                 </p>
+
                 <table>
                     <tr>
-                        <th>TGV</th>
-                        <th><a href="https://www.sncf-connect.com/en-en/tgv">TGV tickets</a></th>
+                        <th>SNCF</th>
+                        <th><a href="https://www.sncf-connect.com/en-en/tgv">SNCF Tickets</a></th>
                     </tr>
                     <tr>
-                        <th></th>
+                        <th>Trainline</th>
+                        <th><a href="https://www.thetrainline.com/en-us">Trainline Website</a></th>
                     </tr>
                 </table>
             
@@ -240,17 +265,90 @@
         
         <!--third info box code-->
         <div id="busbox">
-            <h3>Bus</h3>
+            <h2>|Bus</h2>
+            <p>
+                France’s bus network includes local city buses,
+                 regional services, and intercity routes. Outside 
+                 major cities in many towns, buses connect 
+                 train stations and bus terminals with city 
+                 centres. Tour buses are also common in large 
+                 cities such as Paris and offer sightseeing 
+                 opportunities for some of the countries 
+                 greatest attraction 
+            </p>
+            <h2>|Paris Bus Stops</h2>
+            <iframe class="busMap" src="https://www.google.com/maps/d/embed?mid=1LoYoa9Xa5Slow81JWS34aPIyTStGCmo&ehbc=2E312F"
+                allowfullscreen=""
+                loading="lazy">
+    </iframe>
+
+
         </div>
 
         <!--fourth info box code-->
         <div id="metrobox">
-            <h3>Metro</h3>
+            <h2>|Metro</h2>
+            <p>
+                French  metro is usually limited 
+                to city travel so I will discuss 
+                metro travel in the context of Paris 
+                alone. The Paris metro has 16 
+                numbered lines, with trains usually 
+                identified by the name of their final 
+                station. Use the official RATP map 
+                to plan routes and check the latest 
+                ticket and pass rules before travelling 
+                as fares and ticket options can 
+                change fairly often
+            </p>
+            <h2>|Map of Metro Lines</h2>
+            <img id="metromap" src="images/paris_metro_map.webp" alt="map of paris metro lines">
+            <h2>|Tickets</h2>
+            <p>
+                Paris Metro tickets can be bought at 
+                ticket machines and counters in Metro 
+                and RER stations, or through the Bonjour 
+                RATP and Île-de-France Mobilités apps. 
+                You can load tickets onto a Navigo Easy 
+                card or your smartphone and validate 
+                it at the station gates.
+            </p>
+            <ul>
+                <li>
+                    <a href="https://www.ratp.fr/en/titres-et-tarifs/ticket-metro-train-rer">RATP Website</a>
+                </li>
+                <li>
+                    <a href="https://www.iledefrance-mobilites.fr/en/titres-et-tarifs/detail/ticket-metro-train-rer">Île-de-France Mobilités</a>
+                </li>
+            </ul>
         </div>
 
         <!--fifth info box code-->
         <div id="tripbox">
-            <h3>Trips</h3>
+            <h2>|Trips</h2>
+            <p>
+                France is a beautiful country and 
+                deserves to be explored fully not 
+                just the cities so i have linked 
+                below some trips and routes I would 
+                suggest taking into consideration 
+                when choosing how to spend your time 
+                in France
+            </p>
+            <ul>
+                <li>
+                <a href="https://www.interrail.com/en/plan-your-trip/trip-ideas/recommended-routes/classic-routes/france-itinerary">Best of France Interrail</a>
+                </li>
+                <li>
+                <a href="https://www.interrail.com/en/plan-your-trip/trip-ideas/recommended-routes/classic-routes/ultimate-european-foodie-itinerary/france-foodie-itinerary">French Cuisine Interrail</a>
+                </li>
+                <li>
+                <a href="https://www.interrail.com/en/plan-your-trip/trip-ideas/recommended-routes/classic-routes/mediterranean-itinerary">Mediterranean Itinerary Interrail</a>
+                </li>
+            </ul>
+            <img class="tripimg" src="images/lyon_florida_beach_20261127_131707.png" alt="Poster map of Leon">
+            <img class="tripimg" src="images/paris_florida_beach_20261127_131626.png" alt="Poster map of Paris">
+            <img class="tripimg" src="images/nice_florida_beach_20261127_131736.png" alt="Poster map of Nice">
         </div>
 
         <footer>

@@ -34,6 +34,39 @@ html{
 
 /*END NAV bar contents*/
 /*PAGE MAIN BODY STARTS HERE */
+.intro-banner {
+    position: relative;
+    width: 100%;
+    height: 300px;            
+    overflow: hidden;
+}
+
+.intro-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 40%;    
+    display: block;
+}
+
+.intro-title {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    font-family: 'Great Vibes', 'Lobster', cursive;
+    font-size: clamp(3.5rem, 12vw, 8.5rem); 
+    font-weight: bold;
+    letter-spacing: 0.12em;                   
+    text-transform: uppercase;                
+    color: #ffffff;
+    
+}
+
 
 .culture-intro{
      max-width: 900px;
@@ -53,16 +86,9 @@ html{
     display: block;
 }
 
-img{
-    width: 80%;
-    height: 50%;
-    margin: 10%;
-    align-items: center;
-}
 
-h1{
-    text-align: center;
-}
+
+
 
 h2{
     text-align: center;
@@ -74,11 +100,81 @@ P{
     margin: 5%;
 }
 
-p2{
-    text-align: center;
-}
+
 
 /*Page sub nav bar contents*/
+
+.music-art-media-card{
+    position: relative;
+    width: 260px;
+    height: 320px;
+    border-radius: 15px;
+    background-image: url("/images/images/music-art-media-nav-button.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(0, 34, 255, 0.81);
+    text-align: center;
+    transition: all 0.6s ease;
+
+}
+
+.language-card{
+    position: relative;
+    width: 260px;
+    height: 320px;
+    border-radius: 15px;
+    background-image: url("/images/images/french-language-nav-button.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(255, 255, 255, 0.81);
+    text-align: center;
+    transition: all 0.6s ease;
+    
+
+}
+
+.customs-traditions-card{
+    position: relative;
+    width: 260px;
+    height: 320px;
+    border-radius: 15px;
+    background-image: url("/images/images/traditions-customs-nav-button.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(255, 4, 4, 0.81);
+    text-align: center;
+    transition: all 0.6s ease;
+
+}
+
+.music-art-media-card:hover,
+.language-card:hover,
+.customs-traditions-card:hover {
+ background-image:url("../images/frenchFlagCulture.png");
+ background-size: 100% 100%;
+    transform: scale(1.05);
+    text-decoration: underline;
+    color: #000000;
+   
+}
 
 .explore-buttons-border{
      max-width: 900px;
@@ -98,91 +194,11 @@ p2{
     display: block;
 }
 
-.explore-buttons-container{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
- border: solid 1px black;
-    border-radius: 20px;
-}
 
 
-.button-box-1{
-    width: 200px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    background-color: #fbf8f3;
-    border-width: 2px;
-    border-color: rgb(4, 29, 255);
-    border-radius:  15px;
-    text-decoration: none;
-    border-style: solid;
-    transition: 0.6s ease;
-    overflow: hidden;
-    color: black;
-} 
 
-.button-box-2{
-    width: 200px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    background-color: #f8f8f8;
-    border-width: 2px;
-    border-color: rgba(252, 252, 252, 0.978);
-    border-radius:  15px;
-    text-decoration: none;
-    border-style: solid;
-    transition: 0.6s ease;
-    overflow: hidden;
-    color: black;
-    border:solid 0.5px black;
-} 
-.button-box-3{
-    width: 200px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    background-color: #fbf8f3;
-    border-width: 2px;
-    border-color: rgb(255, 0, 0);
-    border-radius:  15px;
-    text-decoration: none;
-    border-style: solid;
-    transition: 0.6s ease;
-    overflow: hidden;
-    color: black;
-} 
-.nav-button-text{
-    text-decoration: none;
-    white-space: nowrap;
-    opacity: 0 ;
-    transition: opacity 0.3s ease;
-    text-align: center;
 
-}
-
-.button-icon{
-    align-items: center;
-    min-width: 70px;
-    text-align: center;
-    
-}
-
-.button-box-1:hover,
-.button-box-2:hover,
-.button-box-3:hover{
-    width: 350px;
-    
-}
-
-.button-box:hover .nav-button-text{
-        opacity: 1;
-
-    }
-
-    /*END page NAV bar contents*/
+/*END page NAV bar contents*/
 
 .frenchFlagImage{
     height: 100px;
@@ -241,7 +257,7 @@ h3{
 
 }
 
-
+/*MUSIC*/
 .subPage-card{
     position: relative;
     width: 260px;
@@ -263,25 +279,7 @@ h3{
 }
 
 /*ART*/
-.subPage-card2{
-    position: relative;
-    width: 260px;
-    height: 320px;
-    border-radius: 15px;
-    background-image: url("/images/music-card-background-image.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    text-decoration: none;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid rgba(255, 0, 0, 0.442);
-    text-align: center;
-    
 
-}
 
 
 .music-art-media-nav-background-video{
@@ -341,26 +339,8 @@ h3{
     border-color: rgb(255, 0, 0);
 }
 
-.french-flag-banner-image{
-    width: 100%;
-    height: 350px;
-    object-fit: cover;
-    display: block;
-    object-position: center;
-    overflow: hidden;
-}
 
-.french-flag-banner-image{
-    width: 100%;
-    height: 100%;
-    margin: 0 !important;
-    object-fit: cover; 
-    object-position: center 30%;
-    display: block;
-    border-top: rgba(0, 0, 0, 0.5) solid 1px;
-    border-bottom: rgba(0, 0, 0, 0.581) solid 1px;
-    box-sizing: border-box;
-}
+
 
 /*Culture Return button*/
 
@@ -371,7 +351,6 @@ h3{
     font-size: 18px;
     font-family: 'Lobster', cursive;
     color: #000000;
-    text-decoration: bold;
     background-image: url("../images/images/ReturnToArtsMediaMusic-background.jpeg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -414,7 +393,7 @@ h3{
     
 }
 
-}
+
 
 .musicSampleContainer{
     display: flex;
@@ -467,7 +446,6 @@ h3{
     justify-content: center;
     align-items: center;
     text-decoration: underline;
-    text-decoration: bold;
     background-color: rgba(236, 234, 234, 0.453);
     border-radius: 8px;
     border: 1px solid #000000;
@@ -604,8 +582,6 @@ h3{
 }
 
 .customs-quiz-title{
-    
-    text-emphasis: bold;
      max-width: 900px;
     margin: 20px auto 35px auto;
     padding: 22px 28px;
@@ -708,4 +684,69 @@ padding: 22px 28px;
   text-align: center;
   padding: 20px;
   margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+    .language-video iframe,
+    iframe {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+        display: block;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 768px) {
+    .musicSampleContainer {
+        padding: 12px;
+        box-sizing: border-box;
+    }
+
+    .musicSampleContainer table {
+        width: 100%;
+        margin: 0;
+        padding: 12px;
+        text-decoration: none; /* Removes the underline from every phrase */
+        box-sizing: border-box;
+    }
+
+    /* Hides the column headers since each row now stacks as its own mini-card */
+    .musicSampleContainer th {
+        display: none;
+    }
+
+    /* Separates each phrase + translation + audio group cleanly */
+    .musicSampleContainer tr {
+        display: block;
+        width: 100%;
+        padding: 14px 0;
+        border-bottom: 1px solid rgba(6, 10, 44, 0.25);
+        box-sizing: border-box;
+    }
+
+    .musicSampleContainer tr:last-child {
+        border-bottom: none;
+    }
+
+    .musicSampleContainer td {
+        display: block;
+        width: 100%;
+        padding: 4px 0;
+        box-sizing: border-box;
+    }
+
+    /* Makes the English phrase bold so it stands out from the French translation */
+    .musicSampleContainer td:first-child {
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .musicSampleContainer audio {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        margin-top: 6px;
+        display: block;
+    }
 }

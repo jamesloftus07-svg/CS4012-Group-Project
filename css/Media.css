@@ -1,3 +1,21 @@
+.media-title{
+     max-width: 900px;
+    margin: 20px auto 35px auto;
+    padding: 22px 28px;
+    background-color: #fbf8f3;
+    border: 3px solid #c4a159;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 1.65;
+    color: #060a2c;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+    font-weight: bold;
+}
 .media-grid{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -88,16 +106,22 @@ align-items: center;
 }
 
 .video-heading {
-    text-align: center !important;
+     max-width: 900px;
+    margin: 20px auto 35px auto;
+    padding: 22px 28px;
+    background-color: #fbf8f3;
+    border: 3px solid #c4a159;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 24px;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 1.65;
     color: #060a2c;
-    margin: 25px auto 6px auto;
-    padding: 0 15px;
-    width: 100%;
-    margin-top: 100px;
-    border: solid 2px black;
-    width: 80%;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+    font-weight: bold;
 }
 
 .video-caption {
@@ -119,7 +143,51 @@ align-items: center;
 .must-watch-title,
 .must-read-title{
 
-    border: 2px solid black;
+     max-width: 900px;
+    margin: 20px auto 35px auto;
+    padding: 22px 28px;
+    background-color: #fbf8f3;
+    border: 3px solid #c4a159;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 1.65;
+    color: #060a2c;
     text-align: center;
+    box-sizing: border-box;
+    display: block;
 
+}
+
+/*MOBILE CODE HERE */
+.mobile-tap-hint {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .mobile-tap-hint {
+        display: block;
+        text-align: center;
+        font-style: italic;
+        font-size: 14px;
+        color: #060a2c;
+        margin: 8px 0 12px 0;
+         max-width: 900px;
+    margin: 20px auto 35px auto;
+    padding: 22px 28px;
+    background-color: #fbf8f3;
+    border: 3px solid #c4a159;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 1.65;
+    color: #060a2c;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+    }
 }
